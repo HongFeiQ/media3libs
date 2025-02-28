@@ -30,8 +30,8 @@ jobs:
       - name: Checkout Media3
         uses: actions/checkout@v4
         with:
-          repository: HongFeiQ/media
-          ref: b1
+          repository: androidx/media
+          ref: release
           path: media
 
       - uses: actions/setup-java@v4
